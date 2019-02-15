@@ -74,14 +74,14 @@ p {
 }
 
 /* Navbar */
-.container nav {
+.container>nav {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     padding: 20px 0 5px 0;
 }
 
-.container nav .nav-links {
+.container>nav .nav-links {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
@@ -89,7 +89,7 @@ p {
     margin-bottom: 2px;
 }
 
-.container nav .nav-links a {
+.container>nav .nav-links a {
     color: black;
     text-decoration: none;
     font-size: 14px;
@@ -99,7 +99,7 @@ p {
 
 /* Index Header */
 #index header {
-    margin: 32px 0 0 0;
+    margin: 32px 0 20px 0;
 }
 
 /* Content Sections */
