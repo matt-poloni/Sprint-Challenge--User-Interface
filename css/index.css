@@ -93,6 +93,14 @@ p {
     color: black;
     text-decoration: none;
     font-size: 14px;
+    border-radius: 5px;
+    transition: all 1s;
+}
+
+.container>nav .nav-links a:hover {
+    color: white;
+    background: black;
+    padding: 5px 10px;
 }
 
 /* Header Image */
@@ -248,6 +256,18 @@ footer nav a {
     padding: 9px 22px;
     margin-top: 20px;
     cursor: pointer;
+    transition: all 1s;
+}
+
+#about .about-cards button:hover {
+    color: white;
+    background: black;
+}
+
+#about .about-cards button:active {
+    color: white;
+    background: crimson;
+    transition: all 0.25s;
 }
 
 /* About Bottom Content */
