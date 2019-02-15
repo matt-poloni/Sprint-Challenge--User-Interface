@@ -73,6 +73,13 @@ p {
     margin: 0 auto;
 }
 
+@media(max-width: 800px) {
+    .container {
+        width: 100%;
+        min-width: 400px;
+    }
+}
+
 /* Navbar */
 .container>nav {
     display: flex;
@@ -106,6 +113,7 @@ p {
 /* Header Image */
 .container .header-img {
     margin: 32px 0 20px 0;
+    width: 100%;
 }
 
 /* Footer */
