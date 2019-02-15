@@ -95,10 +95,12 @@ p {
     font-size: 14px;
 }
 
+/* Header Image */
 .container .header-img {
     margin: 32px 0 20px 0;
 }
 
+/* Footer */
 footer {
     width: 100%;
     background: black;
@@ -120,7 +122,7 @@ footer nav a {
 
 /* =====INDEX STYLES===== */
 
-/* Content Sections */
+/* Index Top Content */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -135,6 +137,7 @@ footer nav a {
     padding-bottom: 20px;  
 }
 
+/* Index Middle Content */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -162,7 +165,7 @@ footer nav a {
     justify-content: center;
 }
 
-/* Individual Boxes */
+/* Index Individual Boxes */
 .boxes .box:nth-child(1) {
     background: teal;
 }
@@ -194,6 +197,7 @@ footer nav a {
     background: dodgerblue;
 }
 
+/* Index Bottom Content */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -209,11 +213,14 @@ footer nav a {
 }
 
 /* =====ABOUT STYLES===== */
+
+/* About Header */
 #about header {
     padding: 0 20px 20px 20px;
     border-bottom: 1px dashed black;
 }
 
+/* About Cards Content */
 #about .about-cards {
     display: flex;
     flex-wrap: wrap;
@@ -243,6 +250,7 @@ footer nav a {
     cursor: pointer;
 }
 
+/* About Bottom Content */
 #about .about-bot {
     padding: 10px 20px 40px 20px;
 }
