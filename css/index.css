@@ -95,12 +95,30 @@ p {
     font-size: 14px;
 }
 
-/* =====INDEX STYLES===== */
-
-/* Index Header */
-#index header {
+.container .header-img {
     margin: 32px 0 20px 0;
 }
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* =====INDEX STYLES===== */
 
 /* Content Sections */
 .top-content {
@@ -190,21 +208,37 @@ p {
     padding-right: 0;
 }
 
-footer {
-    width: 100%;
-    background: black;
+/* =====ABOUT STYLES===== */
+#about header {
+    padding: 0 20px 20px 20px;
+    border-bottom: 1px dashed black;
 }
 
-footer nav {
-    width: 60%;
+#about .about-cards {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10px;
 }
 
-footer nav a {
-    color: white;
-    text-decoration: none;
+#about .about-cards article {
+    width: 370px;
+    border-bottom: 1px dashed black;
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+
+#about .about-cards img {
+    margin-bottom: 10px;
+}
+
+#about .about-cards button {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 9px 22px;
+    margin-top: 20px;
+    cursor: pointer;
 }
