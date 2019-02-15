@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+* Semantic HTML helps to convey the underlying meaning of elements within the page as well as the structure of the content and layout. This makes website much more machine-readable, which helps users with accesibility requirements and helps build SEO. Additionally, it can also help improve the readability for future developers editing your code.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+* Inline elements take up only as much space as their content, but block elements take up as much width as their parent will allow. Also, block elements can be sized with `height` and `width` properties, but inline elements cannot.
 
 3. What are the 4 areas of the box model?
 
+* From the inside-out: Content, Padding, Border, and Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+* The various `align` properties, including `align-items`, work on the cross-axis. Aligning row-based content sets the vertical axis and aligning column-based content sets the horizontal axis.
+
 5. Explain why git is valuable to a team of developers.
+
+* Git allows developers to track changes over time and along multiple different forks and/or branches as separate people work on different aspects of a project. Later, they can then review who made what changes when and merge their separate work, as necessary, while tracking conflicts and avoiding the accidental overwriting of necessary changes.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -55,7 +65,7 @@ You are expected to be able to answer all these questions. Your responses contri
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
  
