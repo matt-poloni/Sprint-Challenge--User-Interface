@@ -104,7 +104,7 @@ p {
     transition: all 1s;
 }
 
-.container>nav .nav-links a:hover {
+.container>nav .nav-links a:hover, .container>nav .nav-links a:focus {
     color: white;
     background: black;
     padding: 5px 10px;
@@ -279,7 +279,7 @@ footer nav a {
     transition: all 1s;
 }
 
-#about .about-cards button:hover {
+#about .about-cards button:hover, #about .about-cards button:focus {
     color: white;
     background: black;
 }
