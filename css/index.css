@@ -81,14 +81,14 @@ p {
 }
 
 /* Navbar */
-.container>nav {
+.container .navbar {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     padding: 20px 0 5px 0;
 }
 
-.container>nav .nav-links {
+.container .navbar .nav-links {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
@@ -96,7 +96,7 @@ p {
     margin-bottom: 2px;
 }
 
-.container>nav .nav-links a {
+.container .navbar .nav-links a {
     color: black;
     text-decoration: none;
     font-size: 14px;
@@ -104,7 +104,7 @@ p {
     transition: all 1s;
 }
 
-.container>nav .nav-links a:hover, .container>nav .nav-links a:focus {
+.container .navbar .nav-links a:hover, .container .navbar .nav-links a:focus {
     color: white;
     background: black;
     padding: 5px 10px;
