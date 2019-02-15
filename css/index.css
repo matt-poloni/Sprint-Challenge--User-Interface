@@ -66,11 +66,43 @@ p {
     line-height: 1.4;
 }
 
+
+/* Containter */
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+/* Navbar */
+.container nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 0 5px 0;
+}
+
+.container nav .nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.container nav .nav-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* =====INDEX STYLES===== */
+
+/* Index Header */
+#index header {
+    margin: 32px 0 0 0;
+}
+
+/* Content Sections */
 .top-content {
     display: flex;
     flex-wrap: wrap;
