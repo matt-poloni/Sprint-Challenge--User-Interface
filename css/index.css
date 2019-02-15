@@ -189,7 +189,7 @@ footer nav a {
 
 @media(max-width: 800px) {
     .boxes .box {
-        min-width: 75px;
+        min-width: 90px;
     }
 }
 
