@@ -197,34 +197,34 @@ footer nav a {
 }
 
 /* Index Individual Boxes */
-.boxes .box:nth-child(1) {
+.boxes .box.one {
     background: teal;
 }
-.boxes .box:nth-child(2) {
+.boxes .box.two {
     background: gold;
 }
-.boxes .box:nth-child(3) {
+.boxes .box.three {
     background: cadetblue;
 }
-.boxes .box:nth-child(4) {
+.boxes .box.four {
     background: coral;
 }
-.boxes .box:nth-child(5) {
+.boxes .box.five {
     background: crimson;
 }
-.boxes .box:nth-child(6) {
+.boxes .box.six {
     background: forestgreen;
 }
-.boxes .box:nth-child(7) {
+.boxes .box.seven {
     background: darkorchid;
 }
-.boxes .box:nth-child(8) {
+.boxes .box.eight {
     background: hotpink;
 }
-.boxes .box:nth-child(9) {
+.boxes .box.nine {
     background: indigo;
 }
-.boxes .box:nth-child(10) {
+.boxes .box.ten {
     background: dodgerblue;
 }
 
