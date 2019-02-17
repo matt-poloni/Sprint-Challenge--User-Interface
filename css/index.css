@@ -257,18 +257,19 @@ footer nav a {
     padding-top: 10px;
 }
 
-#about .about-cards article {
-    width: 370px;
+#about .about-cards .about-card {
+    flex: 1 1 300px;
     border-bottom: 1px dashed black;
-    padding: 20px 0;
+    padding: 20px 15px;
     margin-bottom: 40px;
 }
 
 #about .about-cards img {
+    width: 100%;
     margin-bottom: 10px;
 }
 
-#about .about-cards button {
+#about .about-cards .learn {
     background-color: white;
     color: black;
     font-size: 16px;
@@ -280,7 +281,7 @@ footer nav a {
     transition: all 1s;
 }
 
-#about .about-cards button:hover, #about .about-cards button:focus {
+#about .about-cards .learn:hover, #about .about-cards .learn:focus {
     color: white;
     background: black;
 }
