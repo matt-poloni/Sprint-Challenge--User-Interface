@@ -87,12 +87,25 @@ p {
     padding: 20px 0 5px 0;
 }
 
+@media(max-width: 650px) {
+    .container .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .container .navbar .nav-links {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
     width: 100%;
     margin-bottom: 2px;
+}
+
+@media(max-width: 650px) {
+    .container .navbar .nav-links {
+        height: 34px;
+    }
 }
 
 .container .navbar .nav-links a {
